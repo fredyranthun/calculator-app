@@ -1,0 +1,45 @@
+$toggleBackground1: hsl(223, 31%, 20);
+$keyBackgroundToogle1: hsl(6, 63%, 50%);
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.radio {
+	background: $toggleBackground1;
+	padding: 0rem;
+	border-radius: 0.2rem;
+    height: 0.4rem;
+	position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.radio input {
+	// width: auto;
+	// height: 100%;
+    margin: 0;
+	appearance: none;
+	outline: none;
+	cursor: pointer;
+	padding: 0 0.1rem;
+	color: white;
+	font-size: 0.3rem;
+	transition: all 100ms ease-in-out;
+}
+
+.radio input:checked {
+	background: $keyBackgroundToogle1;
+	color: #fff;
+    border-radius: 50%;
+}
+
+.radio input:before {
+	content: attr(label);
+	display: inline-block;
+	// text-align: center;
+	// width: 100%;
+}
