@@ -7,7 +7,7 @@ import { darken } from 'polished';
 
 // styles using Styled components and Polished js;
 
-const $calcWidth = '300px';
+const $calcWidth = '380px';
 
 const AppBody = styled.div`
     min-width: 100vw;
@@ -64,7 +64,7 @@ const CalcBody = styled.div`
   max-width: 95%;
   background-color: ${props => props.theme.keypad};
   border-radius: 5px;
-  min-height: 200px;
+  min-height: 300px;
   padding: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;

@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Calculator App GitHub](https://github.com/fredyranthun/calculator-app)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live URL (Vercel Deployed)](https://calculator-app-delta.vercel.app/)
 
 ## My process
 
