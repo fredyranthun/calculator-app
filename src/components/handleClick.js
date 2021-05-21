@@ -58,3 +58,46 @@ const [firstOp, setFirstOp] = useState('');
       setOperation('');
     }
   }
+
+
+  const handleClick = (value) => {
+    if (!operation && operations.includes(value)) {
+      setOperation('0' + value)
+      return;
+    }
+    if (active) {
+      switch (value) {
+        case 'del':
+          setOperation(operation.slice(0, operation.length - 1));
+          break;
+        case 'reset':
+          setOperation('')
+          break;
+        case '=':
+          setOperation(eval(operation).toString());
+          setActive(false);
+          break;
+        default:
+          setOperation(operation + value.toString())
+      }
+    }
+    else {
+      switch (value) {
+        case 'del':
+          setOperation('');
+          setActive(true);
+          break;
+        case 'reset':
+          setOperation('');
+          setActive(true);
+          break;
+        case '=':
+          break;
+        default:
+          setOperation(value);
+          setActive(true);
+      }
+    }
+  };
+
+

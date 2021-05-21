@@ -16,7 +16,6 @@ This is a solution to the [Calculator app challenge on Frontend Mentor](https://
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -50,40 +49,31 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- [Create React App](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
+- [Styled Components](https://styled-components.com/) (was a great challenge for learning this amazing tool)
+- CSS Grid - it is really amazing to see Grid working in a such a direct way. Recommend [Grid Generator](https://grid.layoutit.com/)
+- A little bit of SASS.
+- UseKeyPress hook for having the same behavior either you use a mouse or a keyboard.
+- [polished](https://polished.js.org/docs/) - such an amazing tool for working with Styled Components. I recommend everybody who use Styled Components often to check it out!
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Some points I would like to share on this project.
+First: Styled Components is such a great tool and allow us to work with React Components in such beautiful way.
+It was amazing to use it with a 'Theme Provider' component, and provide three different themes for the app.
+I think there is some ways to accomplish this task, but using Styled Components was really a great way to do so.
 
-To see how you can add code snippets, see below:
+Other interesting point was the use of CSS Grid. What an amazing tool! At the time I am finishing this project, the use of this tool is compatible with 95.45% of the browsers. Consider this while using this tool.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+One amazing and challenging point: algorythm of calculator. Probably there is more elegant ways to accomplish the task, but it was really interesting to analyze client use and where the program could broke or bug.
+
+
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+
 
 ### Continued development
 
@@ -100,11 +90,10 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Fredy](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Twitter - [@fredy_ranthun](https://www.twitter.com/fredy_ranthun)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
